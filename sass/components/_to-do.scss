@@ -1,0 +1,41 @@
+.to-do {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--color-white);
+}
+
+.to-do__list{
+    display: flex;
+    gap: 30px
+}
+
+.to-do__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-light-grey);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.to-do__item {
+    flex-basis: calc((100% - 90px) / 4)
+}
+
+.to-do__title {
+    @include font (null, 14, 1.14, 0.03);
+    text-transform: uppercase;
+    color: var(--color-black);
+    margin-bottom: 10px;
+}
+
+.to-do__text {
+    line-height: 1.71;
+    color: var(--color-grey);
+}
+

@@ -1,0 +1,60 @@
+.sing-up-form {
+    margin-left: auto;
+
+}
+
+.sing-up {
+    display: flex;
+}
+
+.sing-up-title {
+    @include font (null, 14, 1.88, 0.03);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--color-white);
+
+}
+
+.button-sing-up {
+    @include font (700, 16, 1.88, 0.06);
+    display: flex;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    background: var(--color-blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    transition: background 250ms var(--timing-function);
+        &:hover {
+        background-color: var(--color-modal-button);
+        box-shadow: 0px 4px 4px 0px #00000026;
+        }
+
+}
+
+.sing-up-icon {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.sing-up-email {
+    @include font (400, 16, 1.25, 0.03);
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--color-dark-grey);
+    border-radius: 4px;
+    font-style: normal;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms var(--timing-function);
+        &:hover {
+        border: 1px solid var(--color-blue);
+        }
+
+}

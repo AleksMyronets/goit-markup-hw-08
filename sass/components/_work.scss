@@ -1,0 +1,44 @@
+.work-img {
+    background-color: var(--color-white);
+    padding-bottom: 94px;
+}
+
+.work-img__list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.work-img__title {
+    @include font (null, 36, 1.17, 0.03);
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--color-black);
+}
+
+.work-img__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    mix-blend-mode: normal;
+}
+
+.work-img__label {
+    position: relative;
+}
+
+.work-img__text {
+    @include font (null, 14, 1.14, 0.03);
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
