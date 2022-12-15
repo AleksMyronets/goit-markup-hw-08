@@ -23,7 +23,7 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -484,15 +484,14 @@ body {
 }
 
 .banner {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mob1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
 }
 
@@ -501,20 +500,19 @@ body {
 }
 
 .banner__title {
-  width: 696px;
-  height: 120px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6153846154;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
 }
 
 .banner__button {
-  width: 216px;
+  width: 200px;
   height: 50px;
   left: 692px;
   top: 430px;
@@ -539,16 +537,14 @@ body {
 }
 
 .to-do {
-  display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--color-white);
 }
 
 .to-do__list {
-  display: flex;
   gap: 30px;
 }
 
