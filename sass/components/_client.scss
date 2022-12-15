@@ -7,19 +7,21 @@
 
 .client{
     background-color: var(--color-white);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     gap: 30px;
 }
 
 .client__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
 .client__item {
-    width: 170px;
+    flex-basis: calc((100% - 30px) / 2);
+    width: 210px;
     height: 92px;
     transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
  

@@ -1,19 +1,23 @@
 .team {
     background: var(--color-light-grey);
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-bottom: 60px;
+    padding-top: 60px;
     gap: 30px;
 }
 
 .team__comands {
-    @include font (null, 36, 1.17, 0.03);
-    margin-bottom: 50px;
+    @include font (null, 28, 1.18, 0.03);
+    margin-bottom: 30px;
+    // margin-bottom: 50px;
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.17;
     text-align: center;
     color: var(--color-black);
 }
 
 .team__list{
-    display: flex;
+    // display: flex;
     align-items: center;
     gap: 30px;
 }
@@ -52,9 +56,9 @@
 }
 
 .team__social-networks-list {
-    margin-bottom: 30px;
-    margin-right: 32px;
-    margin-left: 32px;
+    padding-bottom: 24px;
+    margin-right: 122px;
+    margin-left: 122px;
     display: flex;
     align-items: center;
     justify-content: center;

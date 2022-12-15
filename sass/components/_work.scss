@@ -1,8 +1,7 @@
-
-.work-img {
-    background-color: var(--color-white);
-    padding-bottom: 94px;
-}
+// .work-img {
+//     background-color: var(--color-white);
+//     padding-bottom: 94px;
+// }
 
 .work-img__list {
     display: flex;
@@ -42,4 +41,10 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--color-white);
+}
+
+.work-img__container{
+    background-color: var(--color-white);
+    padding-bottom: 94px;
+    display: none;
 }

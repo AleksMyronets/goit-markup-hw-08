@@ -4,6 +4,7 @@
 
 .header-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -12,13 +13,13 @@
 }
 
 .main-nav-list{
-    display: flex;
+    display: none;
     gap: 50px;
     text-decoration: none;
 }
 
 .main-contact-list{
-    display: flex;
+    display: none;
     gap: 50px;
     text-decoration: none;
 }
@@ -95,3 +96,16 @@
 .list-link .current{
     color: var(--color-blue);
 }   
+
+.mob-menu-open{
+    border: none;
+    background-color: transparent;
+}
+
+.icon-mob-menu{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+

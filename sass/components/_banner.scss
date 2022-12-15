@@ -1,4 +1,5 @@
 .banner {
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mob1x.jpg);
@@ -15,12 +16,13 @@
 }
 
 .banner__title {
+    width: 100%;
+    // height: 120px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    font-weight: 900;
     font-size: 26px;
-    line-height: calc(42 / 26);
+    line-height: 1.62;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white);
