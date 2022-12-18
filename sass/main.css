@@ -515,7 +515,7 @@ img {
 .hi-banner {
   padding: 118px 0;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 100%;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
