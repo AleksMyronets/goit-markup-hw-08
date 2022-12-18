@@ -1,22 +1,17 @@
-@import './utils/reset';
-@import './utils/mixins';
-@import './utils/container';
-@import './utils/variables';
-@import './utils/hidden';
-
-@import './modal/backdrop';
-@import './modal/modal';
-@import './modal/checkbox';
-@import './modal/sing-up';
-
+@import './utils/vars';
+@import './utils/mixin';
+@import './utils/nool';
+@import './utils/visually-hidden';
+@import './utils/button';
+@import './components/container';
+@import './components/title';
 @import './components/header';
-@import './components/logo';
-@import './components/banner';
-@import './components/to-do';
-@import './components/work';
+@import './components/section';
+@import './components/hi-banner';
+@import './components/features';
+@import './components/work-img';
 @import './components/team';
-@import './components/client';
-@import './components/filter-list';
+@import './components/brands';
+@import './components/modal';
 @import './components/portfolio';
 @import './components/footer';
-@import './components/footer-sl';
