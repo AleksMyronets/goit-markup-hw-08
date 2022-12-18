@@ -15,16 +15,6 @@
     }
 }
 
-@mixin bg-3x {
-
-    @media screen and (min-device-pixel-ratio: 3),
-    (min-resolution: 288dpi),
-    (min-resolution: 3dppx) {
-        @content;
-    }
-
-}
-
 @mixin font ($fw, $fs, $lh, $ls) {
     font-weight: $fw;
     font-size: $fs+px;
