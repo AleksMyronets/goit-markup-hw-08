@@ -6,27 +6,32 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hi_banner-mob-1x.jpg);
-    
-@include bg-2x {
+    background-color: $dark-background;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hi-banner__bg_1x_480w.jpg);
+
+    @include bg-2x {
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../images/hi_banner-mob-2x.jpg);
+            url(../images/hi-banner__bg_2x_480w.jpg);
     }
 
     @media screen and (min-width: 480px) {
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../images/hi_banner-tablet-1x.jpg);
+            url(../images/hi-banner__bg_1x_768w.jpg);
 
         @include bg-2x {
             background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(../images/hi_banner-tablet-2x.jpg);
+                url(../images/hi-banner__bg_2x_768w.jpg);
         }
+
 
     }
 
@@ -34,15 +39,19 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../images/hi_banner-1x.jpg);
+            url(../images/hi-banner__bg_1x_1200w.jpg);
 
         @include bg-2x {
             background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(../images/hi_banner-2x.jpg);
+                url(../images/hi-banner__bg_2x_1200w.jpg);
         }
 
+        @media screen and (min-width: 1200px) {
+            padding: 200px 0;
+        }
+    }
 }
 
 .hi-banner__title {
@@ -59,7 +68,6 @@
     @media screen and (min-width: 1200px) {
         font-size: 44px;
     }
-}
 }
 
 .hi-banner__button {
